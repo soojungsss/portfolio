@@ -2,61 +2,81 @@
 <html>
     <head>
         <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>ABC ICE HOUSE</title>
+        <title>Erin SJ Kim</title>
         <link rel="stylesheet" href="style.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="app.js"></script>
+
+<!-- trying new method -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet"> -->
+
+<!-- new font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous"> -->
     </head>
 <body>
 <section class="header">
             <nav>
-                <a href="index.html"><img src="abclogo.jpeg.png" width="50" height="50"></a>
+                <!-- <a href="index.html"><img src="abclogo.jpeg.png" width="50" height="50"></a> -->
                 <div class="nav-links" id="navLinks">
                     <!-- FIX THESE LINKS - FONTAWESOME -->
-                    <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+                    <i class="fa-solid fa-user" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                        <li><a href="">DRY ICE</a></li>
-                        <li><a href="">ICE CUBES/BLOCKS</a></li>
-                        <li><a href="">ICE SLEDS</a></li>
+                        <li><a href="">Education</a></li>
+                        <li><a href="">Work Experience</a></li>
+                        <li><a href="">Interests</a></li>
+                        <li><a href="">Links</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
 
 <div class="text-box">
-    <h1>Welcome to ABC Ice House</h1>
+    <h1>Erin SJ Kim</h1>
     <p>Orange County's most reliable source for ice and dry ice!
     </p>
-    <a href="" class="hero-btn">Visit Us To Know More</a>
+    <a href="" class="hero-btn">Resume</a>
 </div>
 
 </section>
 
 <!-- ------- Course -------- -->
+<!-- 
+<section class="hidden">
+    <h1>Hi my name is Erin</h1>
+    <p>This is my website</p>
+</section>
 
-<section class="course">
-    <h1>What Can We Do?</h1>
+<section class="hidden">
+    <h2>My portfolio</h2>
+    <p>This is my attempt to create a website that showcases all of my abilities and work.</p>
+</section>
+
+<section class="hidden">
+    <h2>It's really good</h2>
+</section> -->
+
+
+
+<section class="education">
+    <h1>Education</h1>
     <p>Lorem ipsum dolor sit amet, consectetur...</p>
 
     <div class="row">
-        <div class="course-col">
-            <h3>Services We Offer:</h3>
+        <div class="education-col">
+            <h3>High School</h3>
             <ul>
                 <li>Ice Cubes (Party Ice) - 7, 20, 40lb bags</li>
                 <li>Ice Blocks - 10, 23lb blocks</li>
-                <li>Carving Blocks - 300lb (Crystal Clear)</li>
-                <li>Dry Ice - Walk-ins & Deliveries</li>
-                <li>Shipping Boxes (Insulated Pads)</li>
-                <li>Ice Sleds (Rental Specials)</li>
-                <li>Refrigerated Trailer (Rental Specials)</li>
-                <li>Misc. Items - Ice Chests, Coolers, Gel Packs</li>
-                <li>Ice Sculptures</li>
-                <li>Snow Scenes (Residential and Commercial Sites)</li>
+                <li>South Torrance High School</li>
+                <li>Graduated: 2019</li>
             </ul>
             <!-- <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -65,28 +85,20 @@
                 Donec sit.
             </p> -->
         </div>
-        <div class="course-col">
-            <h3>Full Service For:</h3>
+        <div class="education-col">
+            <h3>University</h3>
             <ul>
-                <li>School Functions</li>
-                <li>Hospitals</li>
-                <li>Cafeterias/Restaurants</li>
-                <li>Weddings</li>
-                <li>Hotels</li>
-                <li>Laboratories</li>
-                <li>Parties</li>
-                <li>Company Picnics</li>
-                <li>Sporting Games</li>
-                <li>Catering Events</li>
-                <li>Medical Facilities</li>
+                <li style="font-weight: 700;">University of Southern California</li>
+                <li>GPA: 3.8</li>
+                <li>Major GPA: 3.96</li>
             </ul>
             <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Pellentesque aliquiet turpis nulla, eleifend faucibus est 
             sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus
             Donec sit.</p> -->
         </div>
-        <div class="course-col">
-            <h3>Information:</h3>
+        <div class="education-col">
+            <h3>Future Plans</h3>
             <p>Local Delivery Available 24 hours/7 Days A Week <br>
             Delivery at reasonable prices. To save money, <br> see store hours to pick up ice. </p>
             <ul>
